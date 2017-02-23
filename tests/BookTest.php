@@ -12,7 +12,7 @@ final class BookTest extends TestCase
         'author' => 'William Shakespeare',
         'title' => 'Othello',
         'year' => 2010,
-        'isbn' => '2-266-11156-6',
+        'isbn' => '2266111566',
     ];
 
     private $invalidData = [
