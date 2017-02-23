@@ -1,0 +1,9 @@
+<?php
+return [
+    'db' => [
+        'host' => 'localhost',
+        'database' => 'library',
+        'user' => 'root',
+        'pass' => '',
+    ],
+];

@@ -1,0 +1,4 @@
+/vendor/
+/logs/*
+!/logs/README.md
+/app/config.local.php
