@@ -22,6 +22,16 @@ final class BookTest extends TestCase
         'isbn' => '2266111569',
     ];
 
+    public function testCreateValidBook()
+    {
+        new Book(
+            $this->validData['author'],
+            $this->validData['title'],
+            $this->validData['year'],
+            $this->validData['isbn']
+        );
+    }
+
     /**
      * @expectedException InvalidArgumentException
      * @expectedExceptionMessage Year is wrong
